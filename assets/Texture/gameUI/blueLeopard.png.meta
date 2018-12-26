@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "97ebe21c-0201-488b-a037-3c2cfc07fcb3",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "blueLeopard": {
+      "ver": "1.0.3",
+      "uuid": "4433480b-4faf-4d0b-879e-fbc002558288",
+      "rawTextureUuid": "97ebe21c-0201-488b-a037-3c2cfc07fcb3",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 134,
+      "height": 134,
+      "rawWidth": 134,
+      "rawHeight": 134,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

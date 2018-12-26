@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "cca74b3e-179b-4116-a71d-f9df754e7bc9",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "redWolf": {
+      "ver": "1.0.3",
+      "uuid": "5184d681-120e-4dee-93d4-eef122535f89",
+      "rawTextureUuid": "cca74b3e-179b-4116-a71d-f9df754e7bc9",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 134,
+      "height": 134,
+      "rawWidth": 134,
+      "rawHeight": 134,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

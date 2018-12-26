@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "d22f9431-cb5c-4490-8df4-9f9f9f19e9ad",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "redDog": {
+      "ver": "1.0.3",
+      "uuid": "68d06343-4348-4455-9972-23ad3aeb6a32",
+      "rawTextureUuid": "d22f9431-cb5c-4490-8df4-9f9f9f19e9ad",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 134,
+      "height": 134,
+      "rawWidth": 134,
+      "rawHeight": 134,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

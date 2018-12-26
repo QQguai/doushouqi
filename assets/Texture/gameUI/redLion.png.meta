@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "2446455b-4594-4831-baf3-0d13dde6426c",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "redLion": {
+      "ver": "1.0.3",
+      "uuid": "669db40c-16dc-4304-8d49-57cba78aa434",
+      "rawTextureUuid": "2446455b-4594-4831-baf3-0d13dde6426c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 134,
+      "height": 134,
+      "rawWidth": 134,
+      "rawHeight": 134,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
