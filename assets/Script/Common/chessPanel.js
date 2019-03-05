@@ -8,6 +8,8 @@
 //  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
 //  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/life-cycle-callbacks.html
 
+var glb = require("glb");
+var Chess = require("chess");
 cc.Class({
     extends: cc.Component,
 
@@ -27,11 +29,57 @@ cc.Class({
         //         this._bar = value;
         //     }
         // },
+
+        //qi ge
+        chessGrid: {
+            default: null,
+            type : [cc.Sprite],
+        },
+
+        chessNum:{
+            default: 16,
+        },
+
+        chessMap:{
+            default:null,
+        },
     },
 
     // LIFE-CYCLE CALLBACKS:
 
-    // onLoad () {},
+    onLoad () {
+
+        this.chessMap = [this.chessNum];
+
+        this.initChessMap();
+
+
+    },
+
+    initChessMap () {
+
+        var temp = [];
+        for (var i = 0; i < this.chessNum; i++) {
+            temp.push(i);
+        }
+
+        for (var i = 0; i < this.chessNum; i++) {
+            var a1 = Math.random() ;
+            var a2 = (temp.length - 1);
+            //var a = parseInt(Math.random() * temp.length);
+            var a = parseInt(a1*a2);
+            this.chessMap[i] = temp[a];
+            temp.splice(a,1);
+        }
+
+
+    },
+
+    putChessInMap () {
+        for (const chess in chessMap) {
+
+        }
+    },
 
     start () {
 
